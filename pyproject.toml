@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convenio-rag-evals"
+version = "0.1.0"
+description = "Asistente RAG con citas sobre un convenio colectivo del BOE, con suite de evaluación y trazas de coste"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+# Las dependencias de ejecución se añaden, fijadas a una versión exacta, en la fase que las usa por primera vez
+# (ver docs/DECISIONES.md). La fase 0 no necesita ninguna.
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-cov>=5",
+    "pyyaml>=6",
+]
+
+[tool.setuptools]
+packages = ["convenio_rag"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

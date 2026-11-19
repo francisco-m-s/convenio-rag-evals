@@ -1,0 +1,2 @@
+# Finales de línea LF en todo: el hook de pre-commit es un script de shell y falla con CRLF.
+* text=auto eol=lf

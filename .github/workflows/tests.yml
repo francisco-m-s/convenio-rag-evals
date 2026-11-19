@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read              # el flujo no escribe nada ni usa secretos: las pruebas no llaman a ningún proveedor de modelos
+
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-latest]        # no ubuntu-latest: apuntaría a una imagen distinta sin avisar
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - run: pip install -e ".[dev]"
+      - name: Escáner de secretos
+        run: python herramientas/comprobar_secretos.py
+      - name: Tests
+        run: python -m pytest

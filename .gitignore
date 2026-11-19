@@ -1,0 +1,30 @@
+# Cachés y construcción
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Lo que genera el propio proyecto al usarlo
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+.cache/
+modelos/
+
+# Nunca credenciales ni secretos (el ejemplo sin valores sí se sube)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credencial*
+*credential*
+*service*account*
