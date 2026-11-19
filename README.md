@@ -2,7 +2,7 @@
 
 Asistente que responde preguntas sobre un convenio colectivo del BOE **citando el artículo exacto**, con una suite de evaluación que mide si acierta y una capa de trazas que dice cuánto cuesta cada respuesta.
 
-> **Estado: fase 0 (esqueleto).** Todavía no hay asistente ni resultados. Este README se llena con cifras reales a medida que cada fase termina; lo que aún no está medido figura como **pendiente**. Plan completo en [`docs/PLAN.md`](docs/PLAN.md).
+> **Estado: fase 0 cerrada (esqueleto).** Todavía no hay asistente ni resultados. Este README se llena con cifras reales a medida que cada fase termina; lo que aún no está medido figura como **pendiente**. Plan completo en [`docs/PLAN.md`](docs/PLAN.md).
 
 > **Aviso:** esto es un proyecto de ingeniería, **no asesoramiento jurídico**. Una respuesta del asistente no sustituye la lectura del texto oficial ni la consulta a un profesional.
 
@@ -30,7 +30,7 @@ Cada fila es una competencia con su evidencia verificable en este repositorio. S
 | Observabilidad de LLM | Informe de costes y una traza completa por petición | pendiente (fase 2) |
 | Prompt engineering | `prompts/CHANGELOG.md` con cada cambio medido contra el conjunto de evaluación | pendiente (fase 3) |
 | API REST y webhooks | OpenAPI generado y pruebas de contrato | pendiente (fases 1 y 4) |
-| Python tipado, pruebas e integración continua | `pytest` y escáner de secretos; el workflow está definido pero **aún no se ha ejecutado en GitHub** | parcial (fase 0) |
+| Python tipado, pruebas e integración continua | `pytest` y escáner de secretos, ejecutados en la [integración continua](https://github.com/francisco-m-s/convenio-rag-evals/actions) (Ubuntu 24.04 y Windows, Python 3.12) | parcial (fase 0) |
 
 ## Resultados
 
