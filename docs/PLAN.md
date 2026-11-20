@@ -3,7 +3,7 @@
 > **Repositorio:** `convenio-rag-evals`
 > **Idea en una frase:** un asistente que responde preguntas sobre un texto legal público **citando el artículo exacto**, con una suite de evaluación que mide si acierta y una capa de trazas que dice cuánto cuesta cada respuesta.
 > **Esfuerzo orientativo:** unas 2 semanas a media jornada. Cada fase termina con algo que se puede enseñar.
-> **Estado (20/11/2026):** fase 0 cerrada (el repo clona y arranca sin secretos; integración continua en verde en Ubuntu y Windows). Siguiente: fase 1. Las decisiones de diseño tomadas y las que quedan por verificar están en [`DECISIONES.md`](DECISIONES.md); donde allí se matiza este plan (por ejemplo, embeddings locales para que la CI no necesite secretos), manda `DECISIONES.md`.
+> **Estado (20/11/2026):** fases 0, 1 y 2 hechas; fase 3 hecha salvo la calibración del juez con una revisión humana y la comparativa con reordenación de resultados; fase 4 con el webhook y la regresión de la recuperación en la CI; fase 5 (README con resultados y límites) al día en cada entrega. Qué se ha medido y qué falta, en el [README](../README.md). Las decisiones de diseño tomadas y las que quedan por verificar están en [`DECISIONES.md`](DECISIONES.md); donde allí se matiza este plan (por ejemplo, embeddings locales para que la CI no necesite secretos), manda `DECISIONES.md`.
 
 ## 1. Qué problema resuelve
 

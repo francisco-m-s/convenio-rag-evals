@@ -1,0 +1,26 @@
+| Corpus | Modo | Modelo | Raíz | hit@1 | hit@3 | hit@5 | hit@10 | MRR@10 |
+|---|---|---|---|---|---|---|---|---|
+| articulo | lexica | — | — | 0.58 | 0.84 | 0.86 | 0.94 | 0.77 |
+| articulo | lexica | — | 6 | 0.64 | 0.88 | 0.90 | 0.94 | 0.81 |
+| articulo | vectorial | paraphrase-multilingual-MiniLM-L12-v2 | — | 0.52 | 0.72 | 0.74 | 0.82 | 0.68 |
+| articulo | hibrida | paraphrase-multilingual-MiniLM-L12-v2 | 6 | 0.54 | 0.76 | 0.80 | 0.96 | 0.72 |
+| articulo | vectorial | jina-embeddings-v2-base-es | — | 0.76 | 0.92 | 0.94 | 1.00 | 0.90 |
+| articulo | hibrida | jina-embeddings-v2-base-es | 6 | 0.74 | 0.94 | 0.98 | 0.98 | 0.88 |
+| articulo | vectorial | multilingual-e5-large | — | 0.82 | 0.92 | 0.94 | 0.98 | 0.95 |
+| articulo | hibrida | multilingual-e5-large | 6 | 0.80 | 0.92 | 0.94 | 0.98 | 0.91 |
+| fijo800 | lexica | — | — | 0.64 | 0.84 | 0.86 | 0.88 | 0.78 |
+| fijo800 | lexica | — | 6 | 0.60 | 0.84 | 0.90 | 0.90 | 0.78 |
+| fijo800 | vectorial | paraphrase-multilingual-MiniLM-L12-v2 | — | 0.50 | 0.72 | 0.76 | 0.88 | 0.66 |
+| fijo800 | hibrida | paraphrase-multilingual-MiniLM-L12-v2 | 6 | 0.64 | 0.86 | 0.88 | 0.92 | 0.79 |
+| fijo800 | vectorial | jina-embeddings-v2-base-es | — | 0.68 | 0.80 | 0.90 | 0.98 | 0.82 |
+| fijo800 | hibrida | jina-embeddings-v2-base-es | 6 | 0.72 | 0.90 | 0.92 | 0.96 | 0.86 |
+| fijo800 | vectorial | multilingual-e5-large | — | 0.68 | 0.88 | 0.94 | 0.98 | 0.85 |
+| fijo800 | hibrida | multilingual-e5-large | 6 | 0.74 | 0.88 | 0.92 | 0.98 | 0.88 |
+| fijo1500 | lexica | — | — | 0.64 | 0.88 | 0.90 | 0.92 | 0.79 |
+| fijo1500 | lexica | — | 6 | 0.62 | 0.90 | 0.92 | 0.94 | 0.79 |
+| fijo1500 | vectorial | paraphrase-multilingual-MiniLM-L12-v2 | — | 0.50 | 0.64 | 0.72 | 0.78 | 0.66 |
+| fijo1500 | hibrida | paraphrase-multilingual-MiniLM-L12-v2 | 6 | 0.58 | 0.84 | 0.90 | 0.96 | 0.79 |
+| fijo1500 | vectorial | jina-embeddings-v2-base-es | — | 0.52 | 0.76 | 0.80 | 0.90 | 0.71 |
+| fijo1500 | hibrida | jina-embeddings-v2-base-es | 6 | 0.76 | 0.90 | 0.94 | 0.96 | 0.88 |
+| fijo1500 | vectorial | multilingual-e5-large | — | 0.66 | 0.90 | 0.94 | 0.98 | 0.83 |
+| fijo1500 | hibrida | multilingual-e5-large | 6 | 0.74 | 0.94 | 0.98 | 1.00 | 0.88 |

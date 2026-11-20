@@ -1,0 +1,23 @@
+[
+  {
+    "corpus": "articulo",
+    "trozos": 186,
+    "caracteres_mediana": 1445,
+    "caracteres_max": 3000,
+    "pct_cruzan_articulos": 0.0
+  },
+  {
+    "corpus": "fijo800",
+    "trozos": 413,
+    "caracteres_mediana": 800,
+    "caracteres_max": 800,
+    "pct_cruzan_articulos": 29.8
+  },
+  {
+    "corpus": "fijo1500",
+    "trozos": 214,
+    "caracteres_mediana": 1500,
+    "caracteres_max": 1500,
+    "pct_cruzan_articulos": 48.1
+  }
+]

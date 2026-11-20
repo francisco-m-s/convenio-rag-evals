@@ -1,0 +1,555 @@
+{
+  "entorno": {
+    "ejecutado": "2026-11-20",
+    "python": "3.12.10",
+    "fastembed": "0.9.1",
+    "sha256_trozos": "280c53694e66ec16",
+    "sha256_golden": "3263e0b618139ec6"
+  },
+  "filas": [
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "lexica",
+      "modelo": "—",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.58,
+        "hit@3": 0.84,
+        "hit@5": 0.86,
+        "hit@10": 0.94,
+        "mrr@10": 0.77,
+        "n": 50
+      },
+      "fallos@5": [
+        "q12",
+        "q26",
+        "q29",
+        "q37",
+        "q38",
+        "q44",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "lexica",
+      "modelo": "—",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.64,
+        "hit@3": 0.88,
+        "hit@5": 0.9,
+        "hit@10": 0.94,
+        "mrr@10": 0.806,
+        "n": 50
+      },
+      "fallos@5": [
+        "q12",
+        "q26",
+        "q37",
+        "q38",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "vectorial",
+      "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.52,
+        "hit@3": 0.72,
+        "hit@5": 0.74,
+        "hit@10": 0.82,
+        "mrr@10": 0.675,
+        "n": 50
+      },
+      "fallos@5": [
+        "q06",
+        "q07",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q32",
+        "q36",
+        "q37",
+        "q38",
+        "q43",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "hibrida",
+      "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.54,
+        "hit@3": 0.76,
+        "hit@5": 0.8,
+        "hit@10": 0.96,
+        "mrr@10": 0.721,
+        "n": 50
+      },
+      "fallos@5": [
+        "q07",
+        "q08",
+        "q14",
+        "q16",
+        "q17",
+        "q26",
+        "q38",
+        "q43",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "vectorial",
+      "modelo": "jinaai/jina-embeddings-v2-base-es",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.76,
+        "hit@3": 0.92,
+        "hit@5": 0.94,
+        "hit@10": 1.0,
+        "mrr@10": 0.904,
+        "n": 50
+      },
+      "fallos@5": [
+        "q42",
+        "q43",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "hibrida",
+      "modelo": "jinaai/jina-embeddings-v2-base-es",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.74,
+        "hit@3": 0.94,
+        "hit@5": 0.98,
+        "hit@10": 0.98,
+        "mrr@10": 0.882,
+        "n": 50
+      },
+      "fallos@5": [
+        "q47"
+      ]
+    },
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "vectorial",
+      "modelo": "intfloat/multilingual-e5-large",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.82,
+        "hit@3": 0.92,
+        "hit@5": 0.94,
+        "hit@10": 0.98,
+        "mrr@10": 0.947,
+        "n": 50
+      },
+      "fallos@5": [
+        "q37",
+        "q43",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "articulo",
+      "trozos": 186,
+      "modo": "hibrida",
+      "modelo": "intfloat/multilingual-e5-large",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.8,
+        "hit@3": 0.92,
+        "hit@5": 0.94,
+        "hit@10": 0.98,
+        "mrr@10": 0.91,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q37",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "lexica",
+      "modelo": "—",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.64,
+        "hit@3": 0.84,
+        "hit@5": 0.86,
+        "hit@10": 0.88,
+        "mrr@10": 0.781,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q29",
+        "q37",
+        "q38",
+        "q44",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "lexica",
+      "modelo": "—",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.6,
+        "hit@3": 0.84,
+        "hit@5": 0.9,
+        "hit@10": 0.9,
+        "mrr@10": 0.776,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q37",
+        "q38",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "vectorial",
+      "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.5,
+        "hit@3": 0.72,
+        "hit@5": 0.76,
+        "hit@10": 0.88,
+        "mrr@10": 0.663,
+        "n": 50
+      },
+      "fallos@5": [
+        "q08",
+        "q10",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q26",
+        "q38",
+        "q43",
+        "q47",
+        "q48",
+        "q50"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "hibrida",
+      "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.64,
+        "hit@3": 0.86,
+        "hit@5": 0.88,
+        "hit@10": 0.92,
+        "mrr@10": 0.794,
+        "n": 50
+      },
+      "fallos@5": [
+        "q16",
+        "q17",
+        "q26",
+        "q38",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "vectorial",
+      "modelo": "jinaai/jina-embeddings-v2-base-es",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.68,
+        "hit@3": 0.8,
+        "hit@5": 0.9,
+        "hit@10": 0.98,
+        "mrr@10": 0.819,
+        "n": 50
+      },
+      "fallos@5": [
+        "q11",
+        "q14",
+        "q37",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "hibrida",
+      "modelo": "jinaai/jina-embeddings-v2-base-es",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.72,
+        "hit@3": 0.9,
+        "hit@5": 0.92,
+        "hit@10": 0.96,
+        "mrr@10": 0.865,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q37",
+        "q38",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "vectorial",
+      "modelo": "intfloat/multilingual-e5-large",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.68,
+        "hit@3": 0.88,
+        "hit@5": 0.94,
+        "hit@10": 0.98,
+        "mrr@10": 0.847,
+        "n": 50
+      },
+      "fallos@5": [
+        "q11",
+        "q44",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "fijo800",
+      "trozos": 413,
+      "modo": "hibrida",
+      "modelo": "intfloat/multilingual-e5-large",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.74,
+        "hit@3": 0.88,
+        "hit@5": 0.92,
+        "hit@10": 0.98,
+        "mrr@10": 0.877,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q37",
+        "q38",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "lexica",
+      "modelo": "—",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.64,
+        "hit@3": 0.88,
+        "hit@5": 0.9,
+        "hit@10": 0.92,
+        "mrr@10": 0.794,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q29",
+        "q37",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "lexica",
+      "modelo": "—",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.62,
+        "hit@3": 0.9,
+        "hit@5": 0.92,
+        "hit@10": 0.94,
+        "mrr@10": 0.792,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q37",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "vectorial",
+      "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.5,
+        "hit@3": 0.64,
+        "hit@5": 0.72,
+        "hit@10": 0.78,
+        "mrr@10": 0.663,
+        "n": 50
+      },
+      "fallos@5": [
+        "q04",
+        "q07",
+        "q10",
+        "q11",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q34",
+        "q38",
+        "q40",
+        "q46",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "hibrida",
+      "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.58,
+        "hit@3": 0.84,
+        "hit@5": 0.9,
+        "hit@10": 0.96,
+        "mrr@10": 0.789,
+        "n": 50
+      },
+      "fallos@5": [
+        "q26",
+        "q34",
+        "q38",
+        "q46",
+        "q47"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "vectorial",
+      "modelo": "jinaai/jina-embeddings-v2-base-es",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.52,
+        "hit@3": 0.76,
+        "hit@5": 0.8,
+        "hit@10": 0.9,
+        "mrr@10": 0.712,
+        "n": 50
+      },
+      "fallos@5": [
+        "q10",
+        "q11",
+        "q14",
+        "q15",
+        "q16",
+        "q31",
+        "q43",
+        "q45",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "hibrida",
+      "modelo": "jinaai/jina-embeddings-v2-base-es",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.76,
+        "hit@3": 0.9,
+        "hit@5": 0.94,
+        "hit@10": 0.96,
+        "mrr@10": 0.878,
+        "n": 50
+      },
+      "fallos@5": [
+        "q43",
+        "q47",
+        "q48"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "vectorial",
+      "modelo": "intfloat/multilingual-e5-large",
+      "raiz": null,
+      "metricas": {
+        "hit@1": 0.66,
+        "hit@3": 0.9,
+        "hit@5": 0.94,
+        "hit@10": 0.98,
+        "mrr@10": 0.832,
+        "n": 50
+      },
+      "fallos@5": [
+        "q10",
+        "q11",
+        "q14"
+      ]
+    },
+    {
+      "corpus": "fijo1500",
+      "trozos": 214,
+      "modo": "hibrida",
+      "modelo": "intfloat/multilingual-e5-large",
+      "raiz": 6,
+      "metricas": {
+        "hit@1": 0.74,
+        "hit@3": 0.94,
+        "hit@5": 0.98,
+        "hit@10": 1.0,
+        "mrr@10": 0.876,
+        "n": 50
+      },
+      "fallos@5": [
+        "q47"
+      ]
+    }
+  ]
+}
