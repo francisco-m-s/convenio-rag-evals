@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documento SINTÉTICO que imita la estructura del XML del BOE. Ni el texto ni los nombres son reales. -->
+<documento fecha_actualizacion="20260102030405">
+  <metadatos><identificador>BOE-A-0000-0000</identificador></metadatos>
+  <texto>
+    <p class="parrafo">Visto el texto del convenio de prueba.</p>
+    <p class="articulo">Primero.</p>
+    <p class="parrafo_2">Ordenar la inscripción del convenio de prueba.</p>
+    <p class="parrafo_2">Madrid, 1 de enero de 2026.–La Directora General de Trabajo, Nombre Apellido Inventado.</p>
+    <p class="anexo">CONVENIO DE PRUEBA PARA LAS PRUEBAS</p>
+    <p class="capitulo_num">CAPÍTULO I</p>
+    <p class="capitulo_tit">Disposiciones generales</p>
+    <p class="articulo">Artículo 1. Ámbito.</p>
+    <p class="parrafo">Este convenio se aplica a las empresas de prueba.</p>
+    <p class="articulo">Artículo 2.</p>
+    <p class="parrafo">Artículo sin título tras el número.</p>
+    <p class="capitulo_num">CAPÍTULO II</p>
+    <p class="capitulo_tit">Jornada</p>
+    <p class="parrafo">Texto introductorio del capítulo.</p>
+    <p class="articulo">Artículo 3. Vacaciones.</p>
+    <p class="parrafo">Habrá treinta días de vacaciones.</p>
+    <table class="tabla"><caption>Tabla dentro del artículo</caption><thead><tr><th>Puesto</th><th>Salario</th></tr></thead><tbody><tr><td>Oficial</td><td>1000,50</td></tr></tbody></table>
+    <p class="articulo">Disposición transitoria primera. Formación.</p>
+    <p class="parrafo">Texto transitorio.</p>
+    <p class="anexo_num">ANEXO I</p>
+    <p class="anexo_tit">Plan de pruebas</p>
+    <p class="parrafo">Definiciones del plan.</p>
+    <p class="titulo_num">TÍTULO I</p>
+    <p class="titulo_tit">Objeto</p>
+    <p class="articulo">Artículo 1. Objeto del plan.</p>
+    <p class="parrafo">Este artículo colisiona en número con el artículo 1 del convenio.</p>
+    <p class="anexo_num">ANEXO II</p>
+    <p class="anexo_tit">Plantillas</p>
+    <p class="parrafo">Texto de la plantilla.</p>
+    <table class="tabla"><tr><td>celda a</td><td>celda b</td></tr></table>
+    <p class="anexo_num">ANEXO III</p>
+    <p class="anexo_tit">Tablas salariales</p>
+    <table class="tabla"><caption>Salarios 2030</caption><tr><td>Oficial</td><td>2000</td></tr></table>
+    <p class="centro_cursiva">Asistentes</p>
+    <p class="parrafo_2">Fulano de Tal Inventado, Sindicato X.</p>
+    <p class="articulo">Único. Acuerdo.</p>
+    <p class="parrafo">Se acuerda aplicar un incremento.</p>
+  </texto>
+</documento>
